@@ -1,0 +1,12 @@
+Month: 5, Hour: 9
+  Total Rays: 321638400000
+  Shadow Rays: 0
+  Blocked Rays: 21166688071
+  Hit Rays: 275130449902
+
+========================================
+           Grand Total Summary          
+========================================
+Total Rays Cast Across All Time Points : 321638400000
+Total Shadowed/Blocked Rays          : 21166688071
+Total Hit Receiver Rays              : 275130449902

@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\yudon\Desktop\ray_speed\image\image>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\yudon\Desktop\ray_speed\image\image\x64\Release\main.cu.obj "C:\Users\yudon\Desktop\ray_speed\image\image\main.cu" 
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(59): warning #177-D: function "degreesToRadians" was declared but never referenced
+    static inline float degreesToRadians(float degrees) {
+                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  main.cu
+  tmpxft_000007dc_00000000-7_main.cudafe1.cpp
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(75): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(75): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(161): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(161): warning C4244: “初始化”: 从“unsigned __int64”转换到“const int”，可能丢失数据
+C:\Users\yudon\Desktop\ray_speed\image\image\main.cu(277): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\yudon\Desktop\ray_speed\image\x64\Release\image.lib 和对象 C:\Users\yudon\Desktop\ray_speed\image\x64\Release\image.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  image.vcxproj -> C:\Users\yudon\Desktop\ray_speed\image\x64\Release\image.exe
